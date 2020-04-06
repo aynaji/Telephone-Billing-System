@@ -1,0 +1,61 @@
+﻿body {
+    background-image: url('../images/background.jpg');
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.table {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.item1 {
+    grid-area: title;
+    font-size: large;
+}
+
+.item2 {
+    grid-area: logo;
+    text-align-last: left;
+}
+
+.item3 {
+    grid-area: signin;
+    text-align-last: right;
+}
+
+.register {
+    font-size: small;
+    text-align: right;
+}
+
+.item4 {
+    grid-area: search;
+}
+
+.gridview {
+    width: 100%;
+}
+
+.item5 {
+    grid-area: gridview;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 'logo title title title title signin' 'search search search search search search' 'gridview gridview gridview gridview gridview gridview';
+}
+
+    .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+    }
+
+.menu {
+    background-color: blue;
+}

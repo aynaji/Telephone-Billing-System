@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\EnumUI\" />
+    <Folder Include="Classes\Payment\" />
+    <Folder Include="Classes\Phone\" />
+    <Folder Include="DAO\" />
+  </ItemGroup>
+
+</Project>

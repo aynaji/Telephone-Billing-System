@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.master.cs" Inherits="Project.Master.LoginPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../css/css.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+        <div class="grid-container">
+            <div class="item1">
+                <asp:ContentPlaceHolder ID="item1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="item2">
+                <asp:ContentPlaceHolder ID="item2" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="item3">
+                <asp:ContentPlaceHolder ID="item3" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="item4">
+                <asp:ContentPlaceHolder ID="body1" runat="server"></asp:ContentPlaceHolder>
+
+            </div>
+            <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+            <div class="item5">
+                <asp:ContentPlaceHolder ID="body2" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
